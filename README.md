@@ -12,7 +12,7 @@ python3 doc2dot.py project h cpp 2> project.dot
 ```
 
 Where first parameter ("project") specifies the root folder to start the search and after that, a list of target extensions of source code can be added.
-Standard output is reservated to verbose activity so the standard error output is used here to get the final ```.dot``` file.
+Standard output is reserved to verbose activity, so the standard error output is used here to get the final ```.dot``` file.
 
 After that, calling ```dot``` from Graphviz can parse the previous output.
 ```
