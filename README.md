@@ -18,3 +18,7 @@ After that, calling ```dot``` from Graphviz can parse the previous output.
 ```
 dot project.dot -Tpng > project.png
 ```
+
+## Idea 💡
+
+In most of programming languages the libraries we write are called from other files. The doc2dot.py script uses that string appearances to build the list of edges of a tree. The drawing work can be done by Graphviz ```dot```.
