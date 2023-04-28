@@ -1,6 +1,6 @@
 # Code, doc & dot
 
-In this simple [script](doc2dot.py) you will find a powerfull tool to visualize the code files relationship of an entire large project in a nutshell.
+In this simple [script](doc2dot.py) you will find a powerful tool to visualize the code files relationship of an entire large project in a nutshell.
 
 The output of the recursive search through the files can be parsed by [Graphviz](https://graphviz.org/) command line  ```dot``` tool to obtain a PNG or PS image.
 
